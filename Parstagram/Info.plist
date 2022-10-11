@@ -18,6 +18,9 @@
 					<key>UISceneStoryboardFile</key>
 					<string>Main</string>
 				</dict>
+                <dict>
+                    <key>NSAllowsArbitraryLoads</key><true/>
+                </dict>
 			</array>
 		</dict>
 	</dict>
