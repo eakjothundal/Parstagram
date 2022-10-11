@@ -37,7 +37,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
                 self.dismiss(animated: true)
                 print("saved!")
             } else {
-                print("error!")
+                print("error! \(String(describing: error))")
             }
             
         }
