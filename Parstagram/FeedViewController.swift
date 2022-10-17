@@ -100,7 +100,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
             let user = (post["author"] as? PFUser)
             cell.usernameLabel.text = user?.username
             
-            cell.captionLabel.text = post["caption"] as? String ?? ""
+            cell.captionLabel.text = post["caption"] as? String
             
             let imageFile = post["image"] as! PFFileObject
             let urlString = imageFile.url!
@@ -113,7 +113,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
             let cell = tableView.dequeueReusableCell(withIdentifier: "CommentCell") as! CommentCell
             
             let comment = comments[indexPath.row - 1]
-            cell.commentLabel.text = comment["text"] as? String ?? ""
+            cell.commentLabel.text = comment["text"] as? String
             
             let user = comment["author"] as? PFUser
             cell.nameLabel.text = user?.username
@@ -123,7 +123,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let post = posts[indexPath.row]
+        let post = posts[indexPath.section]
         
         let comment = PFObject(className: "Comments")
         comment["text"] = "This is a random comment"

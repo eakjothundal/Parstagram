@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CC436EDAA7DFE5DB2CC16FF3DAF20956"
-               BuildableName = "Pods_Parstagram.framework"
-               BlueprintName = "Pods-Parstagram"
+               BlueprintIdentifier = "7B28C4D8238B984881411C5F51BC30D6"
+               BuildableName = "MessageInputBar.framework"
+               BlueprintName = "MessageInputBar"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

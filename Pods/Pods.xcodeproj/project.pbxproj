@@ -568,7 +568,7 @@
 		17365228237031A2D2484F45D3F93C76 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		174021A8C9F7F3849E4270CB9CE16B7A /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		17A79A5123B3739009ED9EDA4DF80F4C /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
-		17B76975ABD9C5D0D9E5957C45B1BB4B /* Pods-Parstagram */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Parstagram"; path = Pods_Parstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B76975ABD9C5D0D9E5957C45B1BB4B /* Pods_Parstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17B76D19162DF20EB94B5DADEEC3E082 /* Parse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Parse.m; path = Parse/Parse/Parse.m; sourceTree = "<group>"; };
 		17F6805D1DFC70D43E87370C491AD873 /* PFACLState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFACLState.m; path = Parse/Parse/Internal/ACL/State/PFACLState.m; sourceTree = "<group>"; };
 		1979D208D4F299C704B92E5BB208C1C4 /* PFFileUploadResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFFileUploadResult.h; path = Parse/Parse/PFFileUploadResult.h; sourceTree = "<group>"; };
@@ -1710,7 +1710,7 @@
 				F84B331B5D6AAF1548DD1BB004AE5C2A /* Bolts.framework */,
 				0652F2476C7C87C6C0F6CB68072EA25F /* Parse.framework */,
 				ED7ADA84A7005589821D254428CD2D26 /* Parse.bundle */,
-				17B76975ABD9C5D0D9E5957C45B1BB4B /* Pods-Parstagram */,
+				17B76975ABD9C5D0D9E5957C45B1BB4B /* Pods_Parstagram.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2066,7 +2066,7 @@
 			);
 			name = "Pods-Parstagram";
 			productName = Pods_Parstagram;
-			productReference = 17B76975ABD9C5D0D9E5957C45B1BB4B /* Pods-Parstagram */;
+			productReference = 17B76975ABD9C5D0D9E5957C45B1BB4B /* Pods_Parstagram.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
