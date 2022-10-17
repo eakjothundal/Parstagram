@@ -157,7 +157,7 @@
                                             <outlet property="usernameLabel" destination="Xeo-Jg-U6U" id="EQo-Zi-suc"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CommentCell" id="g2Z-xb-8oF" customClass="CommentCell" customModule="Parstagram" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CommentCell" id="g2Z-xb-8oF" customClass="CommentCell" customModule="Parstagram" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="468.66665649414062" width="390" height="37.333332061767578"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="g2Z-xb-8oF" id="pVV-vu-2sZ">
@@ -192,6 +192,28 @@
                                             <outlet property="commentLabel" destination="AvL-iJ-VzJ" id="jF6-qY-ZGZ"/>
                                             <outlet property="nameLabel" destination="o06-a6-EcT" id="Dr3-Hu-Eeu"/>
                                         </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AddCommentCell" id="ojQ-UU-n61">
+                                        <rect key="frame" x="0.0" y="505.9999885559082" width="390" height="37"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ojQ-UU-n61" id="YIm-XP-qvZ">
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="37"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add a comment..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jlQ-rp-c8o">
+                                                    <rect key="frame" x="16" y="8" width="366" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="jlQ-rp-c8o" secondAttribute="trailing" constant="8" id="1bk-5T-QfX"/>
+                                                <constraint firstAttribute="bottom" secondItem="jlQ-rp-c8o" secondAttribute="bottom" constant="8" id="cXF-Xr-A5l"/>
+                                                <constraint firstItem="jlQ-rp-c8o" firstAttribute="top" secondItem="YIm-XP-qvZ" secondAttribute="top" constant="8" id="sPN-jM-1Yt"/>
+                                                <constraint firstItem="jlQ-rp-c8o" firstAttribute="leading" secondItem="YIm-XP-qvZ" secondAttribute="leading" constant="16" id="z0b-jU-deS"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
